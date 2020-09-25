@@ -28,3 +28,6 @@ section a {
 header > div {
   margin-left: 19px;
 }
+nav ul li a {
+  background-color: lightgreen;
+}
