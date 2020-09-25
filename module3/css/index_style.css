@@ -1,4 +1,30 @@
-
-* {
-  box-sizing: border-box;
+#navbarNavDropdown {
+  width: 100%;
+  margin-top: 10px;
+}
+.navbar-brand {
+  font-size: 3vw;
+}
+h1 {
+  padding: 1em 0;
+}
+div section {
+  padding: 15px 30px;
+  margin-top: 15px;
+  background-color: lightblue;
+}
+section div h2 {
+  font-size: 1.5em;
+}
+footer {
+  margin: 19px;
+}
+button {
+  background-color: aqua;
+}
+section a {
+  text-decoration: underline;
+}
+header > div {
+  margin-left: 19px;
 }
