@@ -8,8 +8,41 @@
     <link rel="stylesheet" href="css/index_style.css" type="text/css">
   </head>
   <body>
-    <header><h1>Our Menu</h1></header>
-    <div class="">
+    <header>
+      <nav class="navbar navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <span class="navbar-brand">Food, LLC</span>
+          <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chicken<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sushi</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1 class="text-center">Our Menu</h1>
+    <div class="container">
       <div class="">
         <section>
           <div><h2 id="title1">Chicken</h2></div>
@@ -20,7 +53,7 @@
       </div>
       <div class="">
         <section>
-          <div><h2 id="title2">Beef</h2></div>
+          <div><h2 id="title1">Chicken</h2></div>
           <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis delectus consequatur ab asperiores. Dolorem explicabo suscipit fugiat itaque, sed necessitatibus debitis alias, optio ipsam assumenda sint iure libero fugit?</p>
           </div>
@@ -28,12 +61,16 @@
       </div>
       <div class="">
         <section>
-          <div><h2 id="title3">Sushi</h2></div>
+          <div><h2 id="title1">Chicken</h2></div>
           <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nobis delectus consequatur ab asperiores. Dolorem explicabo suscipit fugiat itaque, sed necessitatibus debitis alias, optio ipsam assumenda sint iure libero fugit?</p>
           </div>
         </section>
       </div>
     </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
